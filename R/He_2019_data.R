@@ -1,0 +1,84 @@
+#' He 2019 Count Table (top 75 taxa)
+#'
+#' The data were pulled from this summarized article https://www.nature.com/articles/s41522-022-00345-5/figures/1, specifically reference the study by He, Xuan, et al. "Fecal microbiome and metabolome of infants fed bovine MFGM supplemented formula or standard formula with breast-fed infants as reference: a randomized controlled trial." Scientific reports 9.1 (2019): 1-14.
+#' @format A data frame with 208 rows and 76 columns:
+#' \describe{
+#'   \item{X}{Sample Names}
+#'   \item{g__Bifidobacterium}{Counts of g__Bifidobacterium}
+#'   \item{g__Ruminococcus_B}{Counts of g__Ruminococcus_B}
+#'   \item{g__Blautia_A}{Counts of g__Blautia_A}
+#'   \item{g__Escherichia}{Counts of g__Escherichia}
+#'   \item{g__Bacteroides}{Counts of g__Bacteroides}
+#'   \item{g__Erysipelatoclostridium}{Counts of g__Erysipelatoclostridium}
+#'   \item{g__Collinsella}{Counts of g__Collinsella}
+#'   \item{g__Streptococcus}{Counts of g__Streptococcus}
+#'   \item{g__.9}{Counts of g__.9}
+#'   \item{g__.22}{Counts of g__.22}
+#'   \item{g__Anaerostipes}{Counts of g__Anaerostipes}
+#'   \item{g__Veillonella}{Counts of g__Veillonella}
+#'   \item{g__Phocaeicola}{Counts of g__Phocaeicola}
+#'   \item{g__Faecalimonas}{Counts of g__Faecalimonas}
+#'   \item{g__Clostridium}{Counts of g__Clostridium}
+#'   \item{g__Clostridium_AQ}{Counts of g__Clostridium_AQ}
+#'   \item{g__Intestinibacter}{Counts of g__Intestinibacter}
+#'   \item{g__Blautia}{Counts of g__Blautia}
+#'   \item{g__Mediterraneibacter}{Counts of g__Mediterraneibacter}
+#'   \item{g__Akkermansia}{Counts of g__Akkermansia}
+#'   \item{g__Sellimonas}{Counts of g__Sellimonas}
+#'   \item{g__Enterocloster}{Counts of g__Enterocloster}
+#'   \item{g__Romboutsia}{Counts of g__Romboutsia}
+#'   \item{g__Eggerthella}{Counts of g__Eggerthella}
+#'   \item{g__Lacticaseibacillus}{Counts of g__Lacticaseibacillus}
+#'   \item{g__Fusicatenibacter}{Counts of g__Fusicatenibacter}
+#'   \item{g__Faecalibacterium}{Counts of g__Faecalibacterium}
+#'   \item{g__Ruminococcus_E}{Counts of g__Ruminococcus_E}
+#'   \item{g__Agathobacter}{Counts of g__Agathobacter}
+#'   \item{g__Roseburia}{Counts of g__Roseburia}
+#'   \item{g__Robinsoniella}{Counts of g__Robinsoniella}
+#'   \item{g__Terrisporobacter}{Counts of g__Terrisporobacter}
+#'   \item{g__Anaerobutyricum}{Counts of g__Anaerobutyricum}
+#'   \item{g__Gemmiger}{Counts of g__Gemmiger}
+#'   \item{g__Clostridioides}{Counts of g__Clostridioides}
+#'   \item{g__Dorea}{Counts of g__Dorea}
+#'   \item{g__Ruthenibacterium}{Counts of g__Ruthenibacterium}
+#'   \item{g__Pauljensenia}{Counts of g__Pauljensenia}
+#'   \item{g__Dorea_A}{Counts of g__Dorea_A}
+#'   \item{g__Clostridium_P}{Counts of g__Clostridium_P}
+#'   \item{g__Enterococcus_A}{Counts of g__Enterococcus_A}
+#'   \item{g__Senegalimassilia}{Counts of g__Senegalimassilia}
+#'   \item{g__Flavonifractor}{Counts of g__Flavonifractor}
+#'   \item{g__Faecalibacillus}{Counts of g__Faecalibacillus}
+#'   \item{g__Schaedlerella}{Counts of g__Schaedlerella}
+#'   \item{g__Varibaculum}{Counts of g__Varibaculum}
+#'   \item{g__Longicatena}{Counts of g__Longicatena}
+#'   \item{g__Lactococcus}{Counts of g__Lactococcus}
+#'   \item{g__Clostridium_AP}{Counts of g__Clostridium_AP}
+#'   \item{g__Holdemanella}{Counts of g__Holdemanella}
+#'   \item{g__Eisenbergiella}{Counts of g__Eisenbergiella}
+#'   \item{g__CAG.41}{Counts of g__CAG.41}
+#'   \item{g__Hungatella}{Counts of g__Hungatella}
+#'   \item{g__Staphylococcus}{Counts of g__Staphylococcus}
+#'   \item{g__Dialister}{Counts of g__Dialister}
+#'   \item{g__Alistipes}{Counts of g__Alistipes}
+#'   \item{g__Parabacteroides}{Counts of g__Parabacteroides}
+#'   \item{g__.14}{Counts of g__.14}
+#'   \item{g__Lactobacillus}{Counts of g__Lactobacillus}
+#'   \item{g__Bariatricus}{Counts of g__Bariatricus}
+#'   \item{g__Clostridium_Q}{Counts of g__Clostridium_Q}
+#'   \item{g__Anaeroglobus}{Counts of g__Anaeroglobus}
+#'   \item{g__Turicibacter}{Counts of g__Turicibacter}
+#'   \item{g__Haemophilus_D}{Counts of g__Haemophilus_D}
+#'   \item{g__Phascolarctobacterium}{Counts of g__Phascolarctobacterium}
+#'   \item{g__Actinomyces}{Counts of g__Actinomyces}
+#'   \item{g__Coprobacillus}{Counts of g__Coprobacillus}
+#'   \item{g__Lachnospira}{Counts of g__Lachnospira}
+#'   \item{g__Acetatifactor}{Counts of g__Acetatifactor}
+#'   \item{g__.16}{Counts of g__.16}
+#'   \item{g__Fimenecus}{Counts of g__Fimenecus}
+#'   \item{g__CAG.217}{Counts of g__CAG.217}
+#'   \item{g__Clostridium_E}{Counts of g__Clostridium_E}
+#'   \item{g__Prevotella}{Counts of g__Prevotella}
+#'   \item{g__Parasutterella}{Counts of g__Parasutterella}
+#'}
+#' @source He, Xuan, et al. "Fecal microbiome and metabolome of infants fed bovine MFGM supplemented formula or standard formula with breast-fed infants as reference: a randomized controlled trial." Scientific reports 9.1 (2019): 1-14
+"He_2019_data"
