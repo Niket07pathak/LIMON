@@ -64,7 +64,7 @@ You can install LIMON using devtools:
 install.packages("devtools")
 library(devtools)
 
-install_github(“LabBea/LIMON”)
+install_github("LabBea/LIMON")
 ```
 
 ## Tutorial
