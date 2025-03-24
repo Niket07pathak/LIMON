@@ -9,8 +9,7 @@
 
 <!-- badges: end -->
 
-This pipeline is still under development. We appreciate any comments or
-feedback to help improve this platform
+The pre-print manuscript can be viewed at https://www.biorxiv.org/content/10.1101/2025.03.18.644048v1.abstract 
 
 ## Motivation
 
